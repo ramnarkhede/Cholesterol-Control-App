@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="50dp"
+    android:orientation="vertical"
+    tools:context=".DayResultActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="Fat Consumed Today"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateView"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="date"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dayFatCount"
+        android:gravity="center"
+        android:padding="30dp"
+        android:text="3000"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Workout Suggestion"
+        android:visibility="invisible"
+        android:id="@+id/btnSuggestion"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
